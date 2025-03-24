@@ -78,7 +78,9 @@ async function handleImageRequest(isLoadMore = false) {
       });
     }
 
-    if (isLoadMore) smoothScroll();
+    if (isLoadMore) {
+      smoothScroll();
+    }
   } catch (error) {
     toggleLoader(false);
     iziToast.error({
