@@ -55,6 +55,12 @@ button[type='submit'] {
   animation: spin 1s linear infinite;
 }
 
+.load-more {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+}
+
 .hidden {
   display: none;
 }
